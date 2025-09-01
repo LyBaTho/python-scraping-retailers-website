@@ -25,52 +25,6 @@ data_root = sources_dir / "data"
 master_folder = data_root / "master"
 master_folder.mkdir(parents=True, exist_ok=True)
 
-# # AH
-
-# In[4]:
-
-
-# Output file for stacked AH data
-output_file = master_folder / "aggregate_data_ah.xlsx"
-
-
-# In[5]:
-
-
-# Step 1: Find all monthly folders, sorted by YYYY-MM
-month_folders = sorted([f for f in data_root.iterdir() if f.is_dir() and f.name.lower() not in ["aggregate", "master"]])
-
-
-# In[6]:
-
-
-# Master DataFrame to stack all AH data
-df_stack = pd.DataFrame()
-
-
-# In[7]:
-
-
-# Step 2: Loop through folders and stack AH files
-for month_folder in month_folders:
-    ah_files = list(month_folder.glob("ah_products_*.xlsx"))
-    if not ah_files:
-        print(f"Skipping {month_folder.name}, no AH data found.")
-        continue
-
-    df = pd.read_excel(ah_files[0])
-    df_stack = pd.concat([df_stack, df], ignore_index=True)
-    print(f"Added {len(df)} rows from {ah_files[0].name}")
-
-
-# In[8]:
-
-
-# Step 3: Save stacked file
-df_stack.to_excel(output_file, index=False)
-print(f"\n✅ Stacked AH data saved to: {output_file}")
-print(f"Total rows stacked: {len(df_stack)}")
-
 
 # # TESCO
 
