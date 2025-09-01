@@ -48,7 +48,8 @@ scraping-retailers-website-project/
 │
 ├── scripts/                           
 │   ├── data_folder_setup/             
-│   ├── setup_libraries/                
+│   ├── setup_libraries/
+│   ├── albert_heijn/                   
 │   ├── target/                           
 │   ├── tesco/          
 │   ├── carrefour/
