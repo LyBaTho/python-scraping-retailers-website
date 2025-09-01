@@ -11,8 +11,6 @@ os.system("python target.py")
 
 os.system("python tesco.py")
 
-os.system("python albert_heijn.py")
-
 os.system("python carrefour.py")
 
 print("\n=== Step 4: Aggregate Data ===")
@@ -20,5 +18,6 @@ os.system("python aggregate_data.py")
 
 print("\n=== Step 5: Summarize Data ===")
 os.system("python tracking.py")
+
 
 print("\n=== All tasks completed ===")
