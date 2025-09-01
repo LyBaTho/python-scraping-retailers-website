@@ -17,8 +17,6 @@ This project involves:
 🎯 This repository is ideal for demonstrating expertise in:
 - Python Web Scraping  
 - Data Collection Automation  
-- ETL for Retail Analytics  
-- Data Engineering Practices  
 
 ---
 
