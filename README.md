@@ -52,6 +52,8 @@ scraping-retailers-website-project/
 │   ├── target/                           
 │   ├── tesco/          
 │   ├── carrefour/
+│   ├── aggregate_data/
+│   ├── run_all/
 │
 ├── README.md                           # Project overview and instructions
 ```
