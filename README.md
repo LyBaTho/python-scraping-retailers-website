@@ -37,14 +37,13 @@ Automate the collection of product data across retailer websites to build a cons
 ```
 scraping-retailers-website-project/
 │
-├── datasets/                           
-│
-├── docs/                               
-│   ├── data_architecture.drawio        
-│   ├── data_catalog.md                 
-│   ├── data_flow.drawio                
-│   ├── data_models.drawio              
-│   ├── naming-conventions.md          
+├── datasets/                                                    
+│   ├── carrefour_raw_data.png        
+│   ├── carrefour_aggregated_data.png                 
+│   ├── target_raw_data.png                
+│   ├── target_aggregated_data.png           
+│   ├── tesco_raw_data.png
+│   ├── tesco_aggregated_data.png        
 │
 ├── scripts/                           
 │   ├── data_folder_setup/             
