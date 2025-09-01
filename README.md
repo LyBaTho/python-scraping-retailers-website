@@ -54,5 +54,5 @@ scraping-retailers-website-project/
 │   ├── aggregate_data/
 │   ├── run_all/
 │
-├── README.md                           # Project overview and instructions
+├── README.md
 ```
