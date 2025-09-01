@@ -36,3 +36,24 @@ Automate the collection of product data across retailer websites to build a cons
 ---
 
 ## 📂 Repository Structure
+```
+scraping-retailers-website-project/
+│
+├── datasets/                           
+│
+├── docs/                               
+│   ├── data_architecture.drawio        
+│   ├── data_catalog.md                 
+│   ├── data_flow.drawio                
+│   ├── data_models.drawio              
+│   ├── naming-conventions.md          
+│
+├── scripts/                           
+│   ├── data_folder_setup/             
+│   ├── setup_libraries/                
+│   ├── target/                           
+│   ├── tesco/          
+│   ├── carrefour/
+│
+├── README.md                           # Project overview and instructions
+```
