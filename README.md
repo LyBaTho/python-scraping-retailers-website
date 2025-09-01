@@ -10,7 +10,7 @@ This project demonstrates how to use Python to automate data collection from mul
 This project involves:
 
 1. **Web Scraping Pipelines**: Automated scripts built with Python (Selenium, BeautifulSoup, undetected-chromedriver) to extract product-level data from retailer websites.  
-2. **Dynamic Content Handling**: Implemented scrolling and AJAX content loading techniques to capture complete product catalogs.  
+2. **Dynamic Content Handling**: Implemented scrolling and content loading techniques to capture complete product catalogs.  
 3. **Data Captured**: SKU details such as product name, price, unit price, and product URL.  
 4. **Data Storage**: Structured outputs saved into monthly datasets, later aggregated for analytics and dashboard reporting.  
 
